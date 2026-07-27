@@ -1,0 +1,47 @@
+git status
+cd .\devops-lab\.git\
+rm .\testing.py
+git restore testing.p
+git restore testing.py
+cd .\devops-lab\
+git status
+pwd
+rm .\git-command.txt\
+New-Item .\git-command.txt -ItemType File
+git status
+dir
+git add .\git-command.txt
+git status
+git commit -m "added git-command files"
+git remote add origin https://github.com/Deepak-Devops-Lab/devops-lab.git
+git push -u origin main
+git remote -v
+git remote set-url origin https://@github.com/Deepak-Devops-Lab/devops-lab.git
+git remote -v
+cd .\devops-lab\
+git status
+git commit -m "added git-command files"
+git push origin master
+git push origin main
+git remote add origin https://github.com/Deepak-Devops-Lab/devops-lab.git
+git remote add origin https://github.com/Deepak-Devops-Lab/devops-lab.git
+git remote -v
+git remote set-url origin https://@github.com/Deepak-Devops-Lab/devops-lab.git
+git push origin master
+git commit -m "added git-command files"
+git commit -m "added git-command.txt files"
+git add .\git-command.txt
+<<<<<<< HEAD
+git commit -m "added git-command.txt files"git push origin master
+git pull origin master
+git branch 
+git branch{branch name you want to add}
+git switch{to switch branch}
+=======
+git commit -m "added git-command.txt files"        
+git pull origin master  {isse tum github ke changes ko apne cli me laa sakte ho}
+git branch 
+git branch{branch name you want to add}
+git switch  {to switch branch}
+git log --oneline {u can see recent changes}
+git fetch {apne remote(github)branch ko local me laa sakte ho}
