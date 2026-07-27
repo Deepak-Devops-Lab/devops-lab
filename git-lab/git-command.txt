@@ -9,8 +9,6 @@ pwd
 rm .\git-command.txt\
 New-Item .\git-command.txt -ItemType File
 git status
-dir
-git add .\git-command.txt
 git status
 git commit -m "added git-command files"
 git remote add origin https://github.com/Deepak-Devops-Lab/devops-lab.git
@@ -32,12 +30,11 @@ git commit -m "added git-command files"
 git commit -m "added git-command.txt files"
 git add .\git-command.txt
 <<<<<<< HEAD
-git commit -m "added git-command.txt files"git push origin master
-git pull origin master
+git commit -m "added git-command.txt files"git 
+push origin master
 git branch 
 git branch{branch name you want to add}
 git switch{to switch branch}
-=======
 git commit -m "added git-command.txt files"        
 git pull origin master  {isse tum github ke changes ko apne cli me laa sakte ho}
 git branch 
