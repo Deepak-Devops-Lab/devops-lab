@@ -45,3 +45,12 @@ git branch{branch name you want to add}
 git switch  {to switch branch}
 git log --oneline {u can see recent changes}
 git fetch {apne remote(github)branch ko local me laa sakte ho}
+script(files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+flake8 $files 
+if git grep -q "password\|secret_key\|API_KEY" $(git diff --cached --name-only)
+then
+echo "bhai kyu apni job gawana hai,key commit ho jayenge"
+exit 1
+fi 
+exit 0
+)
